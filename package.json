@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate:dataset": "node src/data/dataset-generator/index.js"
+    "data:generate": "node src/data/dataset-generator",
+    "meili:up": "docker-compose up -d meilisearch",
+    "meili:stop": "docker-compose stop meilisearch",
+    "meili:migrate": "node src/meili/migration",
+    "meili:load": "node src/meili/load-data"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bsurai/meilisearch-distinct-documents/issues"
   },
-  "homepage": "https://github.com/bsurai/meilisearch-distinct-documents#readme"
+  "homepage": "https://github.com/bsurai/meilisearch-distinct-documents#readme",
+  "dependencies": {
+    "meilisearch": "0.25.1"
+  }
 }
