@@ -1,0 +1,19 @@
+{
+  "name": "meilisearch-distinct-documents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:dataset": "node src/data/dataset-generator/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsurai/meilisearch-distinct-documents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsurai/meilisearch-distinct-documents/issues"
+  },
+  "homepage": "https://github.com/bsurai/meilisearch-distinct-documents#readme"
+}
