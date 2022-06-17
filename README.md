@@ -21,7 +21,7 @@
 
 Dataset was automaticaly generated. It presents `969` unique product items. Each product item has `3` variations (size: 75ml, 150ml, 1000ml). Therefore total count of documents is `969 products * 3 sizes = 2907 documents`.
 
-JSON-file with full dataset you can see [here](src/data/dataset/dataset.json)
+You can see [JSON-file](src/data/dataset/dataset.json) with full dataset.
 <br/><br/>
 
 ### Configs
