@@ -48,7 +48,7 @@ You will see `171 hits`. It shows a number of all documents relevant this search
 
 ![Load more](screenshots/load-more-button.png)
 
-- Scroll up and you will see `57 hits`. NOw it shows the correct value.
+- Scroll up and you will see `57 hits`. Now it shows the correct value.
 
 ![Load more](screenshots/57-hits.png)
 <br/><br/>
