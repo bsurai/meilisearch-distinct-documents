@@ -1,5 +1,10 @@
 const { meili } = require('../client');
-const { INDEX_ID, INDEX_PRIMARY_KEY, INDEX_DISTINCT_ATTR } = require('../const');
+const {
+  INDEX_ID,
+  INDEX_PRIMARY_KEY,
+  INDEX_DISTINCT_ATTR,
+  INDEX_FILTER_ATTRIBUTES,
+} = require('../const');
 
 async function migrate(client) {
   let shouldCreateIndex = false;
@@ -18,10 +23,7 @@ async function migrate(client) {
     console.log('Sku Distinct Attribute created:', distinctResult);
   }
   
-  const distinctResult = await client.index(INDEX_ID).updateFilterableAttributes([
-    'brand',
-    'productType',
-  ]);
+  const distinctResult = await client.index(INDEX_ID).updateFilterableAttributes(INDEX_FILTER_ATTRIBUTES);
   console.log('Sku Filter Attribute created:', distinctResult);
 }
 
