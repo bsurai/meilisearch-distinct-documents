@@ -2,7 +2,7 @@
 
 
 
-## Here you can find:
+### Here you can find:
  - [Environment](#environment)
  - [Dataset](#dataset)
  - [Meilisearch configs](#configs)
@@ -10,21 +10,21 @@
  - [Start this project](#start-this-project)
 <br/><br/>
 
-## Environment
+### Environment
 
 - meilisearch version: `0.27.2`
 - meilisearch-js version: `0.25.1`
 - programming language: `Java Script`
 <br/><br/>
 
-## Dataset
+### Dataset
 
 Dataset was automaticaly generated. It presents `969` unique product items. Each product item has `3` variations (size: 75ml, 150ml, 1000ml). Therefore total count of documents is `969 products * 3 sizes = 2907 documents`.
 
 JSON-file with full dataset you can see [here](src/data/dataset/dataset.json)
 <br/><br/>
 
-## Configs
+### Configs
 
  - index name: `'products'`
  - primary key: `'id'`
@@ -33,7 +33,7 @@ JSON-file with full dataset you can see [here](src/data/dataset/dataset.json)
  Here're files with [settings](src/meili/const/index.js) and [miggration code](src/meili/migration/index.js)
 <br/><br/>
 
-## Test case
+### Test case
 
 - [Run](#start-this-project) meilisearch
 - Open meilisearch inside a browser
@@ -53,7 +53,7 @@ You will see `171 hits`. It shows a number of all documents relevant this search
 ![Load more](screenshots/57-hits.png)
 <br/><br/>
 
-## Start this project
+### Start this project
 
 - install `docker` and `docker-compose`
 - install `node.js` and `npm`
