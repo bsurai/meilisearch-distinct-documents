@@ -1,5 +1,5 @@
 const { meili } = require('../client');
-const { INDEX_ID, INDEX_PRIMARY_KEY, INDEX_DISTINCT_ATTR } = require('../config');
+const { INDEX_ID, INDEX_PRIMARY_KEY, INDEX_DISTINCT_ATTR } = require('../const');
 
 async function migrate(client) {
   let shouldCreateIndex = false;

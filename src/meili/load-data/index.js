@@ -1,7 +1,7 @@
 const data = require('../../data/dataset/dataset.json')
 const { isArray } = require('../../utils');
 const { meili } = require('../client');
-const { INDEX_ID } = require('../config');
+const { INDEX_ID } = require('../const');
 
 async function loadData(client, data) {
   if (!isArray(data)) {
